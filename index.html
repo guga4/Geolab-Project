@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HOME</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/font.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+        <script src="jquery.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="search-display">
+            <p class="font-myriadPro-24">search by typing</p>
+            <input type="text">
+            <i>&#10006</i>
+        </div>
+        <div class="header-container">
+            <header>
+                <a href="index.html"><img src="assets/images/svg/logo.svg"></a>
+                <nav>
+                    <ul class="font-roboto-24">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="news.html">NEWS</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div class="social-icons">
+                    <a href="#"><i class="icon-google-plus nav-icon"></i></a>
+                    <span class="separator">|</span>
+                    <a href="#"><i class="icon-facebook nav-icon"></i></a>
+                    <span class="separator">|</span>
+                    <a href="#"><i class="icon-youtube nav-icon"></i></a>
+                    <span class="separator nav-icon">|</span>
+                    <i class="icon-search nav-icon"></i>
+                </div>
+                <i class="icon-menu"></i>
+            </header>
+        </div>
+        <div class="banner-container">
+            <section>
+                <div class="banner">
+                    <img src="assets/images/banner.png">
+                    <h1 class="font-roboto-30">
+                        THINGS AREN`T ALWAYS<br>
+                        #000000<br>
+                        OR<br>
+                        #FFFFFF<br>
+                    </h1>
+                    <i class="icon-logo"></i>
+                </div>
+            </section>
+        </div>
+        <div class="videos-container">
+            <section>
+                <h1 class="font-roboto-24">
+                    VIDEOS | <a>view all videos</a>
+                </h1>
+                <div class="embded-video-container">
+                    
+                </div>
+                <div class="embded-video-container">
+                    
+                </div>
+                <div class="empty">
+                    
+                </div>
+            </section>
+        </div>
+        <div class="news-container">
+            <section>
+                <h1 class="font-roboto-24">
+                    NEWS | <a>view all news</a>
+                </h1>
+                <article class="news-article">
+                    <img src="assets/images/typography.jpg">
+                    <h2 class="font-roboto-22">typography lab</h2>
+                </article>
+                <article class="news-article">
+                    <img src="assets/images/social_media.jpg">
+                    <h2 class="font-roboto-22">online marketing</h2>
+                </article>
+                <article class="news-article">
+                    <img src="assets/images/coding.jpg">
+                    <h2 class="font-roboto-22">c# coding</h2>
+                </article>
+                <article class="news-article">
+                    <img src="assets/images/design.jpg">
+                    <h2 class="font-roboto-22">interface design</h2>
+                </article>
+            </section>
+        </div>
+        <div class="featured-container">
+            <section>
+                <h1 class="font-roboto-24">
+                    FEATURED | <a>view all featured media</a>
+                </h1>
+                <article class="featured-article">
+                    <h2 class="font-roboto-22">
+                        <a>Responsive Web Design</a>
+                    </h2>
+                    <i class="icon-responsive"></i>
+                    <p class="font-roboto-20">
+                            approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.
+                    </p>
+                    <a class="font-roboto-14">
+                        read more
+                    </a>
+                </article>
+                <article class="featured-article">
+                    <h2 class="font-roboto-22">
+                        <a>App Development</a>
+                    </h2>
+                    <i class="icon-app"></i>
+                    <p class="font-roboto-20">
+                        Mobile application development is the process of making or creating a mobile application to run on various mobile platforms. A mobile platform is a mobile operating system.
+                    </p>
+                    <a class="font-roboto-14">
+                        read more
+                    </a>
+                </article>
+            </section>
+        </div>
+        <div class="footer-container">
+            <footer class="font-myriadPro-12">
+                <h3>
+                    ©2017 hyper text murkup language
+                </h3>
+                <h3>
+                    created by: ME
+                </h3>
+            </footer>
+        </div>
+        <script>
+            $('.icon-search').click(()=>{
+                $('.search-display').show();
+            });
+            $('.search-display i').click(()=>{
+                $('.search-display').hide();
+            });
+        </script>
+    </body>
+</html>

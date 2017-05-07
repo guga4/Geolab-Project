@@ -1,0 +1,105 @@
+/*iconmoon*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?9bjnok');
+  src:  url('../fonts/icomoon.eot?9bjnok#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?9bjnok') format('truetype'),
+    url('../fonts/icomoon.woff?9bjnok') format('woff'),
+    url('../fonts/icomoon.svg?9bjnok#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-app:before {
+  content: "\e900";
+}
+.icon-cycle:before {
+  content: "\e901";
+}
+.icon-facebook:before {
+  content: "\e902";
+}
+.icon-google-plus:before {
+  content: "\e903";
+}
+.icon-laptop:before {
+  content: "\e904";
+}
+.icon-logo:before {
+  content: "\e905";
+}
+.icon-responsive:before {
+  content: "\e906";
+}
+.icon-rocket:before {
+  content: "\e907";
+}
+.icon-search:before {
+  content: "\e908";
+}
+.icon-youtube:before {
+  content: "\e909";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+/*iconmoon end*/
+
+
+/*text fonts*/
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Roboto-Regular.woff') format('woff'),
+       url('../fonts/Roboto-Regular.ttf')  format('truetype'),
+       url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/MyriadPro-Regular.otf')  format('opentype'),
+       url('../fonts/MyriadPro-Regular.woff') format('woff'),
+       url('../fonts/MyriadPro-Regular.ttf')  format('truetype'),
+       url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+*[class*='font-roboto']{
+    font-family: 'Roboto-Regular';
+}
+*[class*='font-MyriadPro']{
+    font-family: 'font-MyriadPro';
+}
+.font-roboto-24{font-size: 24px;}   
+.font-roboto-30{font-size: 30px;}
+.font-roboto-20{font-size: 20px;}
+.font-roboto-22{font-size: 22px;}
+.font-roboto-18{font-size: 18px;}
+.font-roboto-14{font-size: 14px;}
+.font-myriadPro-12{font-size: 12px;}
+.font-myriadPro-22{font-size: 22px;}
+.font-myriadPro-24{font-size: 24px;}
+.font-myriadPro-20{font-size: 20px;}
+
+/*text fonts end*/
