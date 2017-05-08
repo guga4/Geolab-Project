@@ -5,6 +5,7 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <link rel="stylesheet" type="text/css" href="assets/css/font.css">
         <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+        <script src="jquery.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
@@ -120,5 +121,13 @@
                 </h3>
             </footer>
         </div>
+        <script>
+            $('.icon-search').click(()=>{
+                $('.search-display').show();
+            });
+            $('.search-display i').click(()=>{
+                $('.search-display').hide();
+            });
+        </script>
     </body>
 </html>
